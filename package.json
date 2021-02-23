@@ -2,7 +2,7 @@
   "name": "mini-itx-case-showcase",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://antaraes181.github.com/mini-itx-showcase",
+  "homepage": "https://antares181.github.io/mini-showcase/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
