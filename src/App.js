@@ -1,13 +1,29 @@
 import './App.css';
+import image from './frame-app.png'
+import { motion } from 'framer-motion'
+import AnimationOne from './components/animation-1';
+import sketchupPreview from './components/sketchup';
+import VideoPreview from './components/video';
+
+const styles = {
+  container: {
+    height: '100vh',
+    width: '100%',
+    overflowY: 'none',
+    backgroundColor: '#F2F3F4',
+    position: 'fixed',
+    top: 0,
+    left: 0
+  },
+}
 
 function App() {
-  return (
-    <div className="app">
-      {/* <iframe title="showcase" src="https://3dwarehouse.sketchup.com/embed/7f27c179-9abb-48b0-9247-e676df1c1ee3" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" width="100%" height="100%" allowFullScreen></iframe> */}
-      <iframe title="productivity-table" src="https://embed-3dwarehouse.sketchup.com/embed/d4fd2534-c68c-4119-9bcc-17cc69d5ef70" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" height="100%" allowfullscreen></iframe>
 
-    </div>
-  );
+  return <VideoPreview />
+  // return <AnimationOne />
+
+  // return <sketchupPreview/>
+
 }
 
 export default App;
